@@ -11,4 +11,42 @@ Now, with the advent of Python and other script languages, we can automate such 
 
 **Step 1:** To use this script, you must have the Python installed in your computer. If you don't have it, please download and install it. The download is available in the [Official Website](https://www.python.org/downloads/). Please be sure to check the option "Add Python.exe to PATH" in order to add the Python folder in the PATH Windows variable. This will make possible to execute Python commands from any place in the Windows command prompt in your computer.
 
-**Step 2:** Create a text file (.txt) containing the text you want to count words from and save it to a local folder in your computer. If you prefer, you can try the script by using the sample text (in English) I prepared for you:
+**Step 2:** Create a text file (.txt) containing the text you want to count words from and save it to a local folder in your computer. If you prefer, you can try the script using the sample text (in English) I prepared for you, ![Lisbon.txt](Lisbon.txt).
+
+**Step 3:** From the Windows Command prompt, run the script, which has the following usage format:
+
+``` python count_words.py <input_file> <output_file> ```
+
+So, using my Lisbon.txt file and considering the output could be saved in a 'Lisbon-count.txt' file, the command would be:
+
+``` python count_words.py Lisbon.txt Lisbon-count.txt ```
+
+Let's see how the first 25 lines of the result looks like:
+
+```
+WORDS WITH 4 OR MORE CHARACTERS:
+
+lisbon: 13
+city: 11
+name: 6
+with: 5
+area: 5
+from: 5
+portuguese: 4
+capital: 4
+after: 4
+european: 4
+other: 4
+largest: 3
+portugal: 3
+being: 3
+world: 3
+modern: 3
+later: 3
+most: 3
+since: 3
+been: 3
+centre: 3
+global: 3
+lisbons: 3
+```
