@@ -11,4 +11,15 @@ Now, with the advent of Python and other script languages, we can automate such 
 
 **Step 1:** To use this script, you must have the Python installed in your computer. If you don't have it, please download and install it. The download is available in the [Official Website](https://www.python.org/downloads/). Please be sure to check the option "Add Python.exe to PATH" in order to add the Python folder in the PATH Windows variable. This will make possible to execute Python commands from any place in the Windows command prompt in your computer.
 
-**Step 2:** Create a text file (.txt) containing the text you want to count words from and save it to a local folder in your computer. If you prefer, you can try the script by using the sample text (in English) I prepared for you:
+**Step 2:** Create a text file (.txt) containing the text you want to count words from and save it to a local folder in your computer. If you prefer, you can try the script using the sample text (in English) I prepared for you, ![Lisbon.txt](Lisbon.txt).
+
+**Step 3:** From the Windows Command prompt, run the script, which has the following usage format:
+
+``` python count_words.py <input_file> <output_file> ```
+
+So, using my Lisbon.txt file and considering the output could be saved in a 'Lisbon-count.txt' file, the command would be:
+
+``` python count_words.py Lisbon.txt Lisbon-count.txt ```
+
+
+
