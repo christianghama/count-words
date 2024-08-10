@@ -1,4 +1,4 @@
-# Count Words Python Script
+# Counting words in a text using Python
 ![robot-reader](./Images/reader-robot.png)
 ## Introduction
 I like to start my learning journey of new languages (like French, Spanish, English etc.) by reading before listening or speaking. I try to read the most I can: books, articles, news etc. By reading you become familiar with the structure of the language and also increase your vocabulary, making the next steps of listening and speaking much easier.
@@ -11,7 +11,7 @@ Now, with the advent of Python and other script languages, we can automate such 
 
 **Step 1:** To use this script, you must have the Python installed in your computer. If you don't have it, please download and install it. The download is available in the [Official Website](https://www.python.org/downloads/). Please be sure to check the option "Add Python.exe to PATH" in order to add the Python folder in the PATH Windows variable. This will make possible to execute Python commands from any place in the Windows command prompt in your computer.
 
-**Step 2:** Create a text file (.txt) containing the text you want to count words from and save it to a local folder in your computer. If you prefer, you can try the script using the sample text (in English) I prepared for you, ![Lisbon.txt](Lisbon.txt).
+**Step 2:** Create a text file (.txt) containing the text you want to count words from and save it to a local folder in your computer. If you prefer, you can try the script using the sample text (in English) I prepared for you, [Lisbon.txt](Lisbon.txt).
 
 **Step 3:** From the Windows Command prompt, run the script, which has the following usage format:
 
@@ -50,3 +50,8 @@ centre: 3
 global: 3
 lisbons: 3
 ```
+## Conclusion
+
+That's it! I tried to comment the code in [count-words.py](count-words.py) the best as I could so that you can understand the full process.
+
+Hope this script can be useful for you and that you enjoy this project!
