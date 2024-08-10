@@ -21,5 +21,32 @@ So, using my Lisbon.txt file and considering the output could be saved in a 'Lis
 
 ``` python count_words.py Lisbon.txt Lisbon-count.txt ```
 
+Let's see how the first 25 lines of the result looks like:
 
+```
+WORDS WITH 4 OR MORE CHARACTERS:
 
+lisbon: 13
+city: 11
+name: 6
+with: 5
+area: 5
+from: 5
+portuguese: 4
+capital: 4
+after: 4
+european: 4
+other: 4
+largest: 3
+portugal: 3
+being: 3
+world: 3
+modern: 3
+later: 3
+most: 3
+since: 3
+been: 3
+centre: 3
+global: 3
+lisbons: 3
+```
